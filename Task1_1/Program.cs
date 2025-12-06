@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int sum = a + b;
+
+            Console.WriteLine("{0} + {1} = {2}", a, b, sum);
+            Console.Write("Нажми любую клавишу");
+            Console.ReadKey();
         }
     }
 }
